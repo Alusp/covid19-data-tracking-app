@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 import { fetchCovid } from '../redux/countries/Coountry.js';
 import Home from './Home';
-// import './dashb.css';
+import './dashb.css';
 
 const Dashboard = () => {
   const [searchText, setSearchText] = useState('');
