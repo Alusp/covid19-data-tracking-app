@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-// import './index.css';
+import './index.css';
 import Dashboard from './components/Dashboard';
 import CountryDetails from './components/CountryDetails';
 
