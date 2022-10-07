@@ -29,13 +29,7 @@ const Dashboard = () => {
   let total = filtered.reduce((acc, item) => {
     return acc + item.TotalConfirmed;
   }, 0);
-  for (let i = 0; i < filtered.length; i += 1) {
-    total += filtered[i].TotalConfirmed;
-  }
-  console.log("Habib "+ total);
-
-
-   console.log('COD '+ total);
+   
   return (
     <motion.div className="bg-my-header ">
       <div className="h-30 md:h-45 flex items-center justify-center hero sticky top-0 z-10 bg-my-header">
@@ -47,7 +41,6 @@ const Dashboard = () => {
             Latest updates on current COVID-19 metrics around
             the world
           </p>
-          {/* <div>{country.TotalConfirmed}</div> */}
           <div className="flex items-center justify-between gap-8">
           
            <input
