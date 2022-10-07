@@ -1,0 +1,16 @@
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: blueviolet;
+}
+
+.covid-header {
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .box {
+    display: none;
+  }
+}
