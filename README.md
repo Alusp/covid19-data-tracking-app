@@ -12,11 +12,11 @@
 - Redux
 - WebPack 
 
-## Live Demo 
+### Live Demo 
 
 ![Here](https://alusine-jalloh-covid-data-tracking.netlify.app/)
 
-## Video Presentation
+### Video Presentation
 
 ![Here](https://www.loom.com/share/93fdb23de3904f9487a14f7f088a69c1)
 
