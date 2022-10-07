@@ -1,16 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
-import './index.css';
-import Nav from './components/Nav';
-import Home from './components/Home';
+// import './index.css';
+import Dashboard from './components/Dashboard';
 import CountryDetails from './components/CountryDetails';
 
 function App() {
   return (
     <>
-      <Nav />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/CountryDetails" element={<CountryDetails />} />
+        <Route exact path="/" element={<Dashboard />} />
+        <Route path="/details/:id" element={<CountryDetails />} />
       </Routes>
     </>
   );
