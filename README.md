@@ -2,7 +2,7 @@
 
 # COVID-19 Data Capstone Project
 
-> This is a responsive Covid19 Data Tracking web based app which is showing information about the all the covid cases arround the world
+> This is a responsive Covid19 Data Tracking web based app which is showing information about the all the covid related cases arround the world
 
 
 ## Built With

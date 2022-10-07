@@ -6,6 +6,7 @@ import { BsFillMicFill } from 'react-icons/bs';
 import { IoMdSettings } from 'react-icons/io';
 
 import { fetchCovid } from '../redux/countries/Coountry';
+
 import './details.css';
 
 const CountryDetails = () => {
