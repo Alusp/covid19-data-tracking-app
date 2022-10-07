@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers Hub
+# COVID-19 Data Capstone Project
 
 > This is a responsive Covid19 Data Tracking web based app which is showing information about the all the covid cases arround the world
 
@@ -14,11 +14,11 @@
 
 ### Live Demo 
 
-![Here](https://alusine-jalloh-covid-data-tracking.netlify.app/)
+[Here](https://alusine-jalloh-covid-data-tracking.netlify.app/)
 
 ### Video Presentation
 
-![Here](https://www.loom.com/share/93fdb23de3904f9487a14f7f088a69c1)
+[Here](https://www.loom.com/share/93fdb23de3904f9487a14f7f088a69c1)
 
 
 ## Getting Started
