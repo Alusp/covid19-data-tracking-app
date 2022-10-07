@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+ ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # COVID-19 Data Capstone Project
 
