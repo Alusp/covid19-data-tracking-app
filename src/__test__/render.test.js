@@ -23,12 +23,3 @@ describe('Country', () => {
 
 
 jest.mock('../components/Dashboard', () => () => <div>Mocked Dashboard</div>);
-// describe('Dashboard component ', () => {
-//   it('should render Dashboard component', async () => {
-//     render(
-//       <Provider store={store}>
-//         <Dashboard />
-//       </Provider>,
-//     );
-//   });
-// });

@@ -73,7 +73,7 @@ const Dashboard = () => {
         </div>
         </div>
       </div>
-      <div className="covid-header container mx-auto md:mt-16 md:mb-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-my-header">
+      <div className="covid-header container  mx-auto md:mt-16 md:mb-32 grid grid-cols-2 mb-32 mt-16 md:grid-cols-3 lg:grid-cols-4 bg-my-header">
         {filtered.map((country) => (
           <div key={country.ID}>
             <Home country={country} />

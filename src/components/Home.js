@@ -16,7 +16,7 @@ const Country = (props) => {
       animate={{ x: -10 }}
       transition={{ delay: 0.1, duration: 1.3 }}
       whileHover={{ scale: 1.1, zIndex: 1 }}
-      className="border border-pink-400 py-5 country px-8 bg-my-header"
+      className="border ml-4 border-pink-400 h-60 py-5 country px-8 bg-my-header"
     >
       <div className="flex justify-end items-end">
         <BsArrowRightCircle
