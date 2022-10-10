@@ -14,7 +14,7 @@
 
 ### Live Demo 
 
-[Here](https://alusine.netlify.app/)
+[Here](https://covid-data-tracker-alusine.netlify.app/)
 
 ### Video Presentation
 
