@@ -19,7 +19,7 @@ const Dashboard = () => {
   useEffect(() => {
     dispatch(fetchCovid());
   }, []);
-  console.log(covidData);
+  
   const searchFilter = (event) => {
     setSearchText(event.target.value);
   };
