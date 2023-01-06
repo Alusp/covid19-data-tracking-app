@@ -19,12 +19,12 @@ const Dashboard = () => {
   useEffect(() => {
     dispatch(fetchCovid());
   }, []);
-  console.log(covidData);
+  
   const searchFilter = (event) => {
     setSearchText(event.target.value);
   };
 
-  const filtered = covidData.filter((item) => Object.keys(item).some((key) => item[key]
+  const filtered = (covidData || []).filter((item) => Object.keys(item).some((key) => item[key]
     .toString()
     .toLowerCase()
     .includes(searchText.toLocaleLowerCase())));
@@ -35,10 +35,6 @@ const Dashboard = () => {
   for (let i = 0; i < filtered.length; i += 1) {
     total += filtered[i].TotalConfirmed;
   }
-  console.log("Habib "+ total);
-
-
-   console.log('COD '+ total);
   return (
     <motion.div className="bg-my-header ">
       <div className="h-30 md:h-45 flex items-center justify-center hero sticky top-0 z-10 bg-my-header">
